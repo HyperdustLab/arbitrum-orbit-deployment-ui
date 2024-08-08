@@ -22,7 +22,7 @@ export default function StepLayout({ children }: PropsWithChildren) {
   const { isConnected, address } = useAccount();
   const { chain } = useNetwork();
 
-  const isWrongChain = chain?.id !== ChainId.ArbitrumSepolia;
+  const isWrongChain = chain?.id !== ChainId.ArbitrumOneMainnet;
 
   const shouldShowStepper = currentStep !== RaasProviders;
 
