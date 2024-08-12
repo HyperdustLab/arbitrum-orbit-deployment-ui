@@ -44,7 +44,7 @@ export default function DeployLocallyPage() {
   const { downloadRollupConfig, downloadL3Config } = useConfigDownloads();
 
   const parentChainRpcUrl = useMemo(
-    () => chain?.rpcUrls?.default?.http[0] ?? getRpcUrl(ChainId.ArbitrumSepolia),
+    () => chain?.rpcUrls?.default?.http[0] ?? getRpcUrl(ChainId.ArbitrumOneMainnet),
     [chain],
   );
 
