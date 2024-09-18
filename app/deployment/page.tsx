@@ -27,34 +27,8 @@ export default function InfoPage() {
           <br />
         </p>
         <p>
-          Please ensure you have at least <strong>1.0 Arbitrum Sepolia ETH</strong> (or 0.6 Arbitrum
-          Sepolia ETH plus 0.4 native token for custom fee token chain) before getting started.
+          Please ensure you have at least <strong>1.0 Arbitrum One ETH</strong> (or 0.6 Arbitrum One ETH plus 0.4 native token for custom fee token chain) before getting started.
         </p>
-        <div className="flex w-full flex-col items-baseline justify-between gap-2 bg-[#1A1A1A] p-4">
-          <p>If you don't have enough Sepolia ETH, you can use these faucets:</p>
-          <ul className="list-disc pl-4">
-            <li>
-              <ExternalLink href="https://sepoliafaucet.com/" className="underline">
-                https://sepoliafaucet.com/
-              </ExternalLink>
-            </li>
-            <li>
-              <ExternalLink href="https://www.infura.io/faucet/sepolia" className="underline">
-                https://www.infura.io/faucet/sepolia
-              </ExternalLink>
-            </li>
-          </ul>
-          <p>
-            After you use the faucet you&apos;ll have to{' '}
-            <ExternalLink
-              href="https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=sepolia"
-              className="underline"
-            >
-              bridge
-            </ExternalLink>{' '}
-            it over from Sepolia to Arbitrum Sepolia
-          </p>
-        </div>
       </div>
       <div className="flex justify-end py-4">
         <NextButton onClick={() => goToStep(FIRST_STEP)} />

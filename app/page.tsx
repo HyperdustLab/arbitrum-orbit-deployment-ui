@@ -87,7 +87,7 @@ export default function LaunchPage(params: OptionalOrbitPageParams) {
             <div className="p-1">
               <RocketLaunchIcon className="h-8 w-8 stroke-1" />
             </div>
-            <p className="text-xl lg:text-[28px]">Launch on testnet</p>
+            <p className="text-xl lg:text-[28px]">Launch on Mainnet</p>
             <p className="mb-6 w-full text-sm opacity-50">
               A step-by-step guide for launching your own Orbit chain in under 10 minutes.
             </p>
