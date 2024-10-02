@@ -32,12 +32,12 @@ export default function KeysetPage() {
       assertIsAddress(upgradeExecutor);
       assertIsAddress(sequencerInbox);
 
-      await setValidKeyset({
-        coreContracts: { upgradeExecutor, sequencerInbox },
-        keyset: DEFAULT_KEYSET_STRING,
-        walletClient,
-        publicClient,
-      });
+      // await setValidKeyset({
+      //   coreContracts: { upgradeExecutor, sequencerInbox },
+      //   keyset: DEFAULT_KEYSET_STRING,
+      //   walletClient,
+      //   publicClient,
+      // });
       nextStep();
     } catch (e) {
       console.error(e);
